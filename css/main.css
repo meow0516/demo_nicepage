@@ -1,0 +1,21 @@
+.full-width {
+  background-image: url("../images/bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding-left: 120px;
+  padding-right: 120px;
+  padding-top: 20px;
+  padding-bottom: 20%;
+}
+
+.full-width .intro, .full-width a {
+  font-weight: normal;
+  letter-spacing: 1px;
+  color: white;
+}
+
+.full-width h2, .full-width p {
+  padding: 10px 0;
+}
+/*# sourceMappingURL=main.css.map */
