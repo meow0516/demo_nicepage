@@ -20,6 +20,7 @@ a.button {
 }
 
 .full-width {
+.full-width.brief-intro {
   background-image: url("../images/bg.png");
   background-repeat: no-repeat;
   background-size: cover;
@@ -37,6 +38,7 @@ a.button {
 }
 
 .full-width h2, .full-width p {
+.full-width.brief-intro h2, .full-width.brief-intro p {
   padding: 10px 0;
 }
 
