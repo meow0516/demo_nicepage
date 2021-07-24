@@ -15,8 +15,8 @@ a.button {
   text-decoration: none;
 }
 
-.features, .conference {
-  margin-top: 50px;
+.features, .conference, .recruitment {
+  margin-top: 100px;
 }
 
 .full-width {
@@ -88,7 +88,7 @@ a.button {
 .conference {
   width: 90%;
   margin: 0 auto;
-  padding: 100px 0;
+  padding: 100px 0 0;
 }
 
 .conference .col-lg-6 {
@@ -140,5 +140,23 @@ a.button {
 
 .conference img {
   border-radius: 50%;
+}
+
+.recruitment .row {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.recruitment .col-lg-6:first-of-type, .recruitment .col-lg-6:last-of-type {
+  background-color: #f6f4fb;
+}
+
+.recruitment .col-lg-6 {
+  padding: 20px 40px;
+  position: relative;
+}
+
+.recruitment h4 {
+  display: inline-block;
 }
 /*# sourceMappingURL=main.css.map */
