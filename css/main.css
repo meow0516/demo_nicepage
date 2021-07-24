@@ -7,7 +7,15 @@
   color: #b099d9;
 }
 
-.features {
+a.button {
+  padding: 15px 25px;
+  background-color: #b099d9;
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.features, .conference {
   margin-top: 50px;
 }
 
@@ -75,5 +83,62 @@
 
 .features .col-lg-4.bg-branding-color {
   background-color: #ded4f0;
+}
+
+.conference {
+  width: 90%;
+  margin: 0 auto;
+  padding: 100px 0;
+}
+
+.conference .col-lg-6 {
+  padding: 0 40px;
+}
+
+.conference h2 {
+  letter-spacing: 2px;
+}
+
+.conference p {
+  color: #808080;
+}
+
+.conference .button {
+  display: inline-block;
+  margin: 20px 0;
+}
+
+.conference .narrow {
+  font-weight: 100;
+}
+
+.conference .confrn-info h2 {
+  padding: 20px 0;
+}
+
+.conference .confrn-info p {
+  padding: 0 0 10px 0;
+}
+
+.conference .confrn-info h4 {
+  padding: 40px 0 20px;
+}
+
+.conference .confrn-team h4:last-of-type {
+  padding: 100px 0 50px;
+}
+
+.conference .team-member {
+  padding: 30px 20px;
+  background-color: #ded4f0;
+  text-align: center;
+}
+
+.conference .team-member h5 {
+  padding: 20px 0 10px;
+}
+
+.conference img {
+  border-radius: 50%;
 }
 /*# sourceMappingURL=main.css.map */
