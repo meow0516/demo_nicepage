@@ -15,11 +15,10 @@ a.button {
   text-decoration: none;
 }
 
-.features, .conference, .recruitment {
+.features, .conference, .recruitment, .leader {
   margin-top: 100px;
 }
 
-.full-width {
 .full-width.brief-intro {
   background-image: url("../images/bg.png");
   background-repeat: no-repeat;
@@ -31,13 +30,12 @@ a.button {
   padding-bottom: 20%;
 }
 
-.full-width .intro, .full-width a {
+.full-width.brief-intro .intro, .full-width.brief-intro a {
   font-weight: normal;
   letter-spacing: 1px;
   color: white;
 }
 
-.full-width h2, .full-width p {
 .full-width.brief-intro h2, .full-width.brief-intro p {
   padding: 10px 0;
 }
@@ -160,5 +158,41 @@ a.button {
 
 .recruitment h4 {
   display: inline-block;
+}
+
+.leader {
+  background-color: #ded4f0;
+  text-align: center;
+}
+
+.leader .row {
+  width: 60%;
+  margin: 0 auto;
+  padding: 50px 0;
+}
+
+.leader .col-lg-6 {
+  padding: 30px 100px;
+  background-color: white;
+  border-radius: 10%;
+}
+
+.leader .col-lg-6 p {
+  padding: 30px 0;
+  font-size: 1.5em;
+  font-weight: 300;
+}
+
+.leader img {
+  border-radius: 50%;
+}
+
+.leader .reference {
+  padding: 30px 0 0;
+  color: white;
+}
+
+.leader a {
+  color: white;
 }
 /*# sourceMappingURL=main.css.map */
