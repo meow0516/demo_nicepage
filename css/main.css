@@ -15,7 +15,7 @@ a.button {
   text-decoration: none;
 }
 
-.features, .conference, .recruitment, .leader, .member {
+.features, .conference, .recruitment, .leader, .member, .achievement {
   margin-top: 100px;
 }
 
@@ -219,5 +219,69 @@ a.button {
 
 .member i {
   font-size: 20px;
+}
+
+.achievement {
+  background-color: #ded4f0;
+}
+
+.achievement .container {
+  width: 60%;
+}
+
+.achievement .container > h2 {
+  padding: 50px 0;
+  text-align: center;
+  letter-spacing: 2px;
+}
+
+.achievement .box {
+  background-color: #f6f4fb;
+  padding: 50px 60px;
+}
+
+.achievement .list {
+  background-color: white;
+  border: 1px solid #f6f4fb;
+}
+
+.achievement .title-extend {
+  padding: 30px;
+  font-size: 25px;
+}
+
+.achievement .title-extend:hover {
+  background-color: #9e9e9e;
+}
+
+.achievement .title-extend.open {
+  color: white;
+  background-color: #b099d9;
+}
+
+.achievement .title {
+  float: left;
+  font-weight: bold;
+}
+
+.achievement .extend {
+  float: right;
+  color: #ded4f0;
+}
+
+.achievement .content {
+  padding: 20px 40px;
+}
+
+.achievement p {
+  font-weight: bold;
+}
+
+.achievement li {
+  list-style-type: none;
+}
+
+.achievement li:before {
+  content: " - ";
 }
 /*# sourceMappingURL=main.css.map */
