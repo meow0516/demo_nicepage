@@ -15,7 +15,7 @@ a.button {
   text-decoration: none;
 }
 
-.features, .conference, .recruitment, .leader {
+.features, .conference, .recruitment, .leader, .member {
   margin-top: 100px;
 }
 
@@ -86,7 +86,7 @@ a.button {
 }
 
 .conference {
-  width: 90%;
+  width: 80%;
   margin: 0 auto;
   padding: 100px 0 0;
 }
@@ -96,7 +96,8 @@ a.button {
 }
 
 .conference h2 {
-  letter-spacing: 2px;
+  padding: 20px 0;
+  letter-spacing: 3px;
 }
 
 .conference p {
@@ -110,10 +111,6 @@ a.button {
 
 .conference .narrow {
   font-weight: 100;
-}
-
-.conference .confrn-info h2 {
-  padding: 20px 0;
 }
 
 .conference .confrn-info p {
@@ -187,12 +184,8 @@ a.button {
   border-radius: 50%;
 }
 
-.leader .reference {
+.leader .reference, .leader a {
   padding: 30px 0 0;
-  color: white;
-}
-
-.leader a {
   color: white;
 }
 /*# sourceMappingURL=main.css.map */
