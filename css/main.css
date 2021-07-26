@@ -159,35 +159,44 @@ a.button {
   display: inline-block;
 }
 
-.leader {
+.leaders {
+  padding: 50px 0;
   background-color: #ded4f0;
   text-align: center;
 }
 
-.leader .row {
-  width: 60%;
+.leaders .row {
+  width: 70%;
   margin: 0 auto;
-  padding: 50px 0;
 }
 
-.leader .col-lg-6 {
-  padding: 30px 100px;
+.leaders .col-lg-6 {
+  padding: 0 20px;
+}
+
+.leaders .leader {
+  padding: 50px;
   background-color: white;
   border-radius: 10%;
+  position: relative;
 }
 
-.leader .col-lg-6 p {
+.leaders .leader.up {
+  top: -20%;
+}
+
+.leaders .leader p {
   padding: 30px 0;
   font-size: 1.5em;
   font-weight: 300;
 }
 
-.leader img {
+.leaders img {
   border-radius: 50%;
 }
 
-.leader .reference, .leader a {
-  padding: 30px 0 0;
+.leaders .reference, .leaders a {
+  padding: 50px 0 0;
   color: white;
 }
 
