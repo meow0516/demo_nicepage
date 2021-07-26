@@ -325,4 +325,19 @@ a.button {
   background-color: white;
   border-radius: 20px;
 }
+
+#footer {
+  padding: 50px 0;
+  color: white;
+  background-color: #333333;
+  text-align: center;
+}
+
+#footer a {
+  color: white;
+}
+
+#footer .container {
+  width: 50%;
+}
 /*# sourceMappingURL=main.css.map */
