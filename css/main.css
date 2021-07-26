@@ -49,6 +49,7 @@ a.button {
 .features .subtitle {
   width: 40%;
   margin: 0 auto;
+  padding-bottom: 20px;
 }
 
 .features .subtitle h2, .features .subtitle h4, .features .subtitle p {
@@ -72,16 +73,17 @@ a.button {
   color: #808080;
 }
 
-.features .row {
-  padding-top: 50px;
+.features .col-lg-4 {
+  padding: 20px;
 }
 
-.features .col-lg-4 {
+.features .feature {
+  padding: 20px;
   background-color: #f2f2f2;
   border-radius: 30px;
 }
 
-.features .col-lg-4.bg-branding-color {
+.features .feature.bg-branding-color {
   background-color: #ded4f0;
 }
 
