@@ -141,22 +141,25 @@ a.button {
   border-radius: 50%;
 }
 
-.recruitment .row {
+.recruitment .container > .row {
   width: 80%;
   margin: 0 auto;
+}
+
+.recruitment .col-lg-2 {
+  text-align: center;
 }
 
 .recruitment .col-lg-6:first-of-type, .recruitment .col-lg-6:last-of-type {
   background-color: #f6f4fb;
 }
 
-.recruitment .col-lg-6 {
-  padding: 20px 40px;
-  position: relative;
+.recruitment .recruitment_content {
+  padding: 20px;
 }
 
-.recruitment h4 {
-  display: inline-block;
+.recruitment p {
+  margin: 0;
 }
 
 .leaders {
