@@ -192,6 +192,10 @@ a.button {
 }
 
 .leaders img {
+  width: 60px;
+  height: 60px;
+  -o-object-fit: cover;
+     object-fit: cover;
   border-radius: 50%;
 }
 
@@ -220,6 +224,10 @@ a.button {
 }
 
 .member img {
+  width: 240px;
+  height: 240px;
+  -o-object-fit: cover;
+     object-fit: cover;
   border-radius: 40px;
 }
 
