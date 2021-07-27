@@ -27,7 +27,7 @@ a.button {
   padding-left: 120px;
   padding-right: 120px;
   padding-top: 20px;
-  padding-bottom: 20%;
+  padding-bottom: 30%;
 }
 
 .full-width.brief-intro .intro, .full-width.brief-intro a {
@@ -38,6 +38,88 @@ a.button {
 
 .full-width.brief-intro h2, .full-width.brief-intro p {
   padding: 10px 0;
+}
+
+.tools {
+  position: relative;
+}
+
+.tools .search-bar {
+  float: left;
+  border: 1px solid white;
+  padding: 10px;
+}
+
+.tools input {
+  border: none;
+  background-color: transparent;
+  color: white;
+}
+
+.tools i {
+  color: white;
+}
+
+.tools .ham-menu {
+  float: right;
+  top: 20px;
+  right: 20px;
+}
+
+.tools .ham {
+  background-color: transparent;
+  border: none;
+  font-size: 20px;
+  color: white;
+  cursor: pointer;
+}
+
+.tools .ham:hover {
+  color: #ded4f0;
+}
+
+.xIcon {
+  display: none;
+}
+
+.menu {
+  padding-top: 4rem;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 20%;
+  height: 100vh;
+  background: black;
+  color: white;
+  -webkit-transform: translateX(-100%);
+          transform: translateX(-100%);
+  -webkit-transition: -webkit-transform 0.2s;
+  transition: -webkit-transform 0.2s;
+  transition: transform 0.2s;
+  transition: transform 0.2s, -webkit-transform 0.2s;
+  list-style: none;
+}
+
+.showMenu {
+  -webkit-transform: translateX(0);
+          transform: translateX(0);
+}
+
+li {
+  padding: 1rem 0;
+}
+
+.menuLink {
+  display: inline;
+  font-size: 1rem;
+  color: white;
+  text-decoration: none;
+}
+
+a.menuLink:hover {
+  color: gray;
 }
 
 .features {

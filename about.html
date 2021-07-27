@@ -18,16 +18,24 @@
     <div id="content">
         <div class="brief-intro full-width ">
             <div class="container header-bg">
-                <div class="tools">
+                <div class="tools clearfix">
                     <div class="search-bar">
-                        <input type="text">
+                        <input type="text" placeholder="Search">
+                        <i class="icon-search"></i>
                     </div>
-                    <div class="nav">
-                        <ul>
-                            <li>Home</li>
-                            <li>About</li>
-                            <li>Contact</li>
+                    <!-- hamburger -->
+                    <div class="ham-menu">
+                        <button class="ham">
+                            <!-- X and menu icon SVGs from material icons https://material.io/resources/icons/ -->
+                            <span class="menuIcon material-icons">menu</span>
+                            <span class="xIcon material-icons">close</span>
+                        </button>
+                        <ul class="menu">
+                            <li><a class="menuLink" href="#">Home</a></li>
+                            <li><a class="menuLink" href="#">About</a></li>
+                            <li><a class="menuLink" href="#">Contact</a></li>
                         </ul>
+                        <!-- end of hamburger -->
                     </div>
                 </div>
                 
