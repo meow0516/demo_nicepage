@@ -78,11 +78,11 @@ a.button {
   color: #ded4f0;
 }
 
-.xIcon {
+.tools .xIcon {
   display: none;
 }
 
-.menu {
+.tools .menu {
   padding-top: 4rem;
   position: fixed;
   top: 0;
@@ -102,23 +102,23 @@ a.button {
   list-style: none;
 }
 
-.showMenu {
+.tools .showMenu {
   -webkit-transform: translateX(0);
           transform: translateX(0);
 }
 
-li {
+.tools li {
   padding: 1rem 0;
 }
 
-.menuLink {
+.tools .menuLink {
   display: inline;
   font-size: 1rem;
   color: white;
   text-decoration: none;
 }
 
-a.menuLink:hover {
+.tools a.menuLink:hover {
   color: gray;
 }
 
@@ -220,6 +220,10 @@ a.menuLink:hover {
 }
 
 .conference img {
+  width: 118px;
+  height: 118px;
+  -o-object-fit: cover;
+     object-fit: cover;
   border-radius: 50%;
 }
 
@@ -353,6 +357,7 @@ a.menuLink:hover {
 .achievement .title-extend {
   padding: 30px;
   font-size: 25px;
+  cursor: pointer;
 }
 
 .achievement .title-extend:hover {
@@ -375,7 +380,12 @@ a.menuLink:hover {
 }
 
 .achievement .content {
+  display: none;
   padding: 20px 40px;
+}
+
+.achievement .content.content_show {
+  display: inline-block;
 }
 
 .achievement p {

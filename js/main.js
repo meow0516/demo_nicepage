@@ -24,3 +24,30 @@ menuLinks.forEach(
     menuLink.addEventListener("click", toggleMenu)
   }
 )
+
+
+
+$('.title-extend').click(function (e) {
+    // click other list->add class and remove exist class 
+       
+    // class exist click again->remove class
+    if($(this).hasClass('open')){
+      $(this).removeClass('open');
+      $(this).siblings().slideUp();
+    }
+    
+    else{
+        // class doesnt exist click-> add class        
+        $(this).closest('.list').siblings().find('.open').removeClass('open');
+        $(this).closest('.list').siblings().find('.content').slideUp();
+        $(this).addClass('open');
+        $(this).siblings().slideDown();
+        
+
+        
+
+    }
+    
+});
+
+
