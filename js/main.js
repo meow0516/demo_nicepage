@@ -42,10 +42,6 @@ $('.title-extend').click(function (e) {
         $(this).closest('.list').siblings().find('.content').slideUp();
         $(this).addClass('open');
         $(this).siblings().slideDown();
-        
-
-        
-
     }
     
 });

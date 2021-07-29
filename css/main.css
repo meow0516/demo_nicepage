@@ -385,7 +385,7 @@ a.button {
 }
 
 .achievement .content.content_show {
-  display: inline-block;
+  display: block;
 }
 
 .achievement p {
