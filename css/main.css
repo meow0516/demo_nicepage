@@ -374,5 +374,48 @@ a.button {
   }
 }
 
+@media (max-width: 1200px) {
+  .features, .conference, .recruitment, .leaders, .member, .achievement, .contact {
+    padding: 60px 0;
+  }
+  .full-width.brief-intro {
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 20px;
+    padding-bottom: 30%;
+  }
+  .tools .material-icons {
+    font-size: 40px;
+  }
+  .features h4 {
+    letter-spacing: 2px;
+    padding-bottom: 10px;
+  }
+  .conference {
+    width: 90%;
+  }
+  .conference .col-lg-6 {
+    padding: 0 10px;
+  }
+  .recruitment .container > .row {
+    width: 100%;
+  }
+  .leaders .row {
+    width: 100%;
+  }
+  .member .row {
+    width: 100%;
+  }
+  .achievement .content_box {
+    width: 80%;
+  }
+  .achievement .container-fluid > h2 {
+    padding: 0 0 50px;
+  }
+  .contact .contact_box {
+    width: 90%;
+  }
+}
+
 }
 /*# sourceMappingURL=main.css.map */
