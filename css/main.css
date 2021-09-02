@@ -543,86 +543,83 @@ a.button {
   }
 }
 
-  }
-  .contact input, .contact select, .contact textarea {
-    padding-bottom: 10px;
-    border: none;
-    border-radius: 0;
-    border-bottom: 1px solid black;
-    background-color: #f6f4fb;
-  }
-  .contact .button {
-    width: 30%;
-    margin-top: 20px;
-    padding: 10px;
-    background-color: #b099d9;
-    color: white;
-    font-weight: bold;
-    text-decoration: none;
-    border-radius: 10px;
-    border: none;
-  }
-  .contact .description {
-    padding: 100px 50px;
-    background-color: white;
-    border-radius: 20px;
-  }
-  #footer {
-    padding: 50px 0;
-    color: white;
-    background-color: #333333;
-    text-align: center;
-  }
-  #footer a {
-    color: white;
-  }
-  #footer .container {
-    width: 50%;
-  }
-}
-
-@media (max-width: 1200px) {
+@media (max-width: 768px) {
   .features, .conference, .recruitment, .leaders, .member, .achievement, .contact {
-    padding: 60px 0;
+    padding: 50px 0;
   }
   .full-width.brief-intro {
-    padding-left: 40px;
-    padding-right: 40px;
-    padding-top: 20px;
-    padding-bottom: 30%;
+    background-image: url("../images/bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0 50%;
   }
-  .tools .material-icons {
-    font-size: 40px;
+  .tools .search-bar {
+    float: none;
+    display: block;
+    margin-bottom: 1em;
   }
-  .features h4 {
-    letter-spacing: 2px;
-    padding-bottom: 10px;
+  .tools .search-bar input {
+    width: 95%;
   }
-  .conference {
-    width: 90%;
+  .tools .ham-menu {
+    text-align: center;
+    float: none;
+    display: block;
   }
-  .conference .col-lg-6 {
-    padding: 0 10px;
+  .tools .menu {
+    width: 50%;
   }
-  .recruitment .container > .row {
-    width: 100%;
+  .features .container-fluid {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
   }
-  .leaders .row {
-    width: 100%;
-  }
-  .member .row {
-    width: 100%;
-  }
-  .achievement .content_box {
+  .features .subtitle {
     width: 80%;
   }
-  .achievement .container-fluid > h2 {
-    padding: 0 0 50px;
+  .features .feature_box {
+    width: 80%;
   }
-  .contact .contact_box {
-    width: 90%;
+  .recruitment {
+    width: 75%;
+    margin: 0 auto;
   }
-}
-
+  .member {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .member .container-fluid {
+    width: 75%;
+  }
+  .achievement .list_box {
+    padding: 15px 25px;
+  }
+  .achievement .title-extend {
+    padding: 10px 20px;
+  }
+  .achievement .title {
+    font-size: 0.8em;
+  }
+  .contact .input_area {
+    margin-bottom: 40px;
+  }
+  .contact .description {
+    padding: 30px 20px;
+  }
 }
 /*# sourceMappingURL=main.css.map */
