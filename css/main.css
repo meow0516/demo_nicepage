@@ -506,46 +506,43 @@ a.button {
   }
 }
 
+@media (max-width: 992px) {
+  .features, .conference, .recruitment, .leaders, .member, .achievement, .contact {
+    padding: 60px 0;
   }
-  .achievement .title-extend.open {
-    color: white;
-    background-color: #b099d9;
+  .tools .material-icons {
+    font-size: 30px;
   }
-  .achievement .title {
-    float: left;
-    font-weight: bold;
+  .features .subtitle {
+    width: 80%;
   }
-  .achievement .extend {
-    float: right;
-    color: #ded4f0;
+  .features h4 {
+    font-size: 1.2em;
   }
-  .achievement .content {
+  .conference {
+    width: 70%;
+  }
+  .recruitment .recru_subtitle {
+    text-align: left;
+  }
+  .leaders .leaders_container {
+    width: 90%;
+  }
+  .leaders .leader {
+    border-radius: 2em;
+    margin: 2em 0;
+  }
+  .leaders .hiddenbox {
     display: none;
-    padding: 20px 40px;
   }
-  .achievement .content.content_show {
-    display: block;
-  }
-  .achievement p {
-    font-weight: bold;
-  }
-  .achievement li {
-    list-style-type: none;
-  }
-  .achievement li:before {
-    content: " - ";
-  }
-  .contact {
-    background-color: #f6f4fb;
-    padding-top: 100px;
+  .achievement .content_box {
+    width: 90%;
   }
   .contact .contact_box {
     width: 90%;
-    margin: 0 auto;
   }
-  .contact label {
-    padding: 5px 0;
-    font-weight: bold;
+}
+
   }
   .contact input, .contact select, .contact textarea {
     padding-bottom: 10px;
