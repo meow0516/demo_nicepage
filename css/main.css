@@ -15,6 +15,10 @@ a.button {
   text-decoration: none;
 }
 
+a.button:hover {
+  background-color: #ded4f0;
+}
+
 .features, .conference, .recruitment, .leaders, .member, .achievement, .contact {
   padding: 80px 0 60px;
 }
@@ -440,6 +444,10 @@ a.button {
   text-decoration: none;
   border-radius: 10px;
   border: none;
+}
+
+.contact .button:hover {
+  background-color: #ded4f0;
 }
 
 .contact .description {
