@@ -138,8 +138,13 @@ a.button:hover {
   padding-bottom: 20px;
 }
 
-.features .subtitle h2, .features .subtitle h4, .features .subtitle p {
+.features .subtitle h2, .features .subtitle p {
   padding-bottom: 20px;
+}
+
+.features h4 {
+  padding: 0 2em 1em 2em;
+  height: 80px;
 }
 
 .features i {
@@ -329,6 +334,7 @@ a.button:hover {
 
 .member i {
   font-size: 20px;
+  cursor: pointer;
 }
 
 .achievement {
@@ -486,7 +492,7 @@ a.button:hover {
   }
   .features h4 {
     letter-spacing: 2px;
-    padding-bottom: 10px;
+    height: auto;
   }
   .conference {
     width: 90%;
@@ -525,7 +531,8 @@ a.button:hover {
     width: 80%;
   }
   .features h4 {
-    font-size: 1.2em;
+    font-size: 1rem;
+    padding: 0 2em 1em 2em;
   }
   .conference {
     width: 70%;

@@ -138,11 +138,15 @@ a.button{
             width: 40%;
             margin: 0 auto ;
             padding-bottom: 20px;
-            h2, h4, p{
+            h2, p{
                 padding-bottom: 20px;
             }
         }
-    
+        h4{
+            padding: 0 2em 1em 2em;
+            height: 80px;
+        }
+        
         i{
             display: inline-block;        
             margin: 20px auto;
@@ -330,6 +334,7 @@ a.button{
     
         i{
             font-size: 20px;
+            cursor: pointer;
         }
     }
     
@@ -479,7 +484,7 @@ a.button{
     .features{
         h4{
             letter-spacing: 2px;
-            padding-bottom: 10px;
+            height: auto;
         }
     }
 
@@ -545,7 +550,8 @@ a.button{
         }
 
         h4{
-            font-size: 1.2em;
+            font-size: 1rem;
+            padding: 0 2em 1em 2em;
         }
     }
 
